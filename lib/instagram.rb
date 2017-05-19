@@ -5,8 +5,8 @@ require File.expand_path("../instagram/client", __FILE__)
 require File.expand_path("../instagram/response", __FILE__)
 
 require "hashie"
-require "hashie/logger"
-Hashie.logger = Logger.new(nil)
+#require "hashie/logger"
+#Hashie.logger = Logger.new(nil)
 
 module Instagram
   extend Configuration
